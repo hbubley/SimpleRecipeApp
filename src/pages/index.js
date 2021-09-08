@@ -1,5 +1,7 @@
+import { Link } from "gatsby"
 import React from "react"
+import NavBar from "../components/NavBar"
 
 export default function Home() {
-  return <div>Hello people!</div>
+  return <div><NavBar /><p>Hello people!</p></div>
 }
